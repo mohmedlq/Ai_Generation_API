@@ -1,6 +1,4 @@
 
-وهذا مناسب جدًا للـ GitHub:
-
 ````markdown
 # Gemini Prompt API
 
