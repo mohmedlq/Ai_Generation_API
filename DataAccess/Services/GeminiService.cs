@@ -50,10 +50,10 @@ namespace DataAccess.Services
                     responseMimeType = "application/json",
                     responseSchema = schema,
                     maxOutputTokens = maxTokens ?? 4000,
-                    temperature = 0.4
+                    temperature = 0.1
                 }
             };
-
+            
             using var requestMessage =
                 new HttpRequestMessage(HttpMethod.Post, url);
 
