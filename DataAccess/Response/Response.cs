@@ -4,11 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Request
+namespace DataAccess.Response
 {
-    public class GeminiRequest
+    public class Response
     {
-        public List<Content> Contents { get; set; } = [];
+        public List<Candidate> Candidates { get; set; } = [];
+    }
+
+    public class Candidate
+    {
+        public Content Content { get; set; } = new();
     }
 
     public class Content

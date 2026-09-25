@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Options
+namespace DataAccess.Gemini_Ai_Api
 {
     public class GeminiOptions
     {

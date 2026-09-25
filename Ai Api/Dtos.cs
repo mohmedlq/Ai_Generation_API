@@ -13,6 +13,8 @@ namespace Ai_Api
             public JsonElement Schema { get; set; } = new();
 
             public int? Tokens {  get; set; }
+
+            public double? Temperature { get; set; }
         }
 
     }
